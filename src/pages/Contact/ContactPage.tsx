@@ -10,13 +10,13 @@ const ContactPage: React.FC<Props> = () => {
         Let's work together to create the perfect solution for your business
         needs. Fill out the form below and we'll be in touch.
       </p>
-      <form className="bg-[#1F2833] p-6 rounded-lg shadow-lg">
+      <form className="bg-darkBlue p-6 rounded-lg shadow-lg">
         <div className="mb-4">
           <label className="block text-white font-bold mb-2" htmlFor="name">
             Name
           </label>
           <input
-            className="bg-[#797e85] appearance-none border-2 border-[#797e85] rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-[#192029] focus:border-brightRedLight"
+            className="bg-darkGrayishBlue appearance-none border-2 border-darkGrayishBlue rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-veryDarkBlue focus:border-brightPrimaryAccent"
             type="text"
             id="name"
             name="name"
@@ -28,7 +28,7 @@ const ContactPage: React.FC<Props> = () => {
             Email
           </label>
           <input
-            className="bg-[#797e85] appearance-none border-2 border-[#797e85] rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-[#192029] focus:border-brightRedLight"
+            className="bg-darkGrayishBlue appearance-none border-2 border-darkGrayishBlue rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-veryDarkBlue focus:border-brightPrimaryAccent"
             type="email"
             id="email"
             name="email"
@@ -40,13 +40,13 @@ const ContactPage: React.FC<Props> = () => {
             Message
           </label>
           <textarea
-            className="bg-[#797e85] appearance-none border-2 border-[#797e85] rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-[#192029] focus:border-brightRedLight h-32"
+            className="bg-darkGrayishBlue appearance-none border-2 border-darkGrayishBlue rounded w-full py-2 px-4 text-white leading-tight focus:outline-none focus:bg-veryDarkBlue focus:border-brightPrimaryAccent h-32"
             id="message"
             name="message"
             required
           />
         </div>
-        <button className="bg-brightRed hover:bg-brightRedLight text-white font-bold py-2 px-4 rounded">
+        <button className="bg-primaryAccent hover:bg-brightPrimaryAccent text-white font-bold py-2 px-4 rounded">
           Submit
         </button>
       </form>

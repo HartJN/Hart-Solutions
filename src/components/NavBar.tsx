@@ -50,7 +50,7 @@ const NavBar: React.FC<Props> = (props: Props) => {
 
         <Link
           to="/contact"
-          className="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
+          className="hidden p-3 px-6 pt-2 text-white bg-primaryAccent rounded-full baseline hover:bg-brightPrimaryAccent md:block"
         >
           Contact Us
         </Link>
@@ -75,7 +75,7 @@ const NavBar: React.FC<Props> = (props: Props) => {
           id="menu"
           className={`absolute flex-col items-center ${
             isOpen ? 'flex' : 'hidden'
-          } self-end py-8 mt-10 space-y-6 font-bold bg-[#1F2833] text-white left-6 right-6 drop-shadow-md sm:w-auto sm:self-center `}
+          } self-end py-8 mt-10 space-y-6 font-bold bg-darkBlue text-white left-6 right-6 drop-shadow-md sm:w-auto sm:self-center `}
         >
           {mobileNavLinks.map((link, index) => (
             <Link to={link.href} key={link.name}>

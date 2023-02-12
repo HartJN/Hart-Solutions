@@ -18,7 +18,7 @@ const HeroSection = (props: Props) => {
           <div className="flex justify-center md:justify-start">
             <Link
               to="/contact"
-              className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+              className="p-3 px-6 pt-2 text-white bg-primaryAccent rounded-full baseline hover:bg-brightPrimaryAccent"
             >
               Discover How
             </Link>

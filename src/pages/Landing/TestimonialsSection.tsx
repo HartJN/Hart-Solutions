@@ -64,7 +64,7 @@ const TestimonialsSection: React.FC<Props> = (props: Props) => {
         <div className="my-16">
           <Link
             to="/contact"
-            className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+            className="p-3 px-6 pt-2 text-white bg-primaryAccent rounded-full baseline hover:bg-brightPrimaryAccent"
           >
             Get Started
           </Link>

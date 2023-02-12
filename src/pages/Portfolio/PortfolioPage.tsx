@@ -15,7 +15,7 @@ const Portfolio: React.FC<Props> = (props: Props) => {
       <h1 className="text-3xl font-bold  mb-6 text-white">Our Portfolio</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {portfolioItems.map((item, index) => (
-          <div key={index} className="bg-[#1F2833] p-6 rounded-lg shadow-lg">
+          <div key={index} className="bg-darkBlue p-6 rounded-lg shadow-lg">
             <img
               src={item.image}
               alt={item.title}

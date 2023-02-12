@@ -10,12 +10,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        brightRed: '#45A29E',
-        brightRedLight: '#66FCF1',
-        brightRedSupLight: '#c2fef9',
-        darkBlue: 'hsl(228, 39%, 23%)',
-        darkGrayishBlue: '#C5C6C7',
-        veryDarkBlue: 'hsl(233, 12%, 13%)',
+        primaryAccent: '#45A29E',
+        brightPrimaryAccent: '#66FCF1',
+        brightPrimaryAccentSupLight: '#c2fef9',
+        darkBlue: '#1F2833',
+        darkGrayishBlue: '#797e85',
+        veryDarkBlue: '#192029',
         veryPaleRed: 'hsl(13, 100%, 96%)',
         veryLightGray: 'hsl(0, 0%, 98%)',
 

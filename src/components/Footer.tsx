@@ -26,7 +26,7 @@ const Footer: React.FC<Props> = (props: Props) => {
   }
 
   return (
-    <footer className="bg-[#1F2833] xl:absolute xl:bottom-0 xl:right-0 xl:left-0 ">
+    <footer className="bg-darkBlue xl:absolute xl:bottom-0 xl:right-0 xl:left-0 ">
       <div className="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
         <div className="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
           <div className="mx-auto my-6 text-center text-white md:hidden">
@@ -55,7 +55,7 @@ const Footer: React.FC<Props> = (props: Props) => {
               <Link
                 to={link.link}
                 key={link.name}
-                className="hover:text-brightRed"
+                className="hover:text-primaryAccent"
               >
                 {link.name}
               </Link>
@@ -66,7 +66,7 @@ const Footer: React.FC<Props> = (props: Props) => {
               <Link
                 to={link.link}
                 key={link.name}
-                className="hover:text-brightRed"
+                className="hover:text-primaryAccent"
               >
                 {link.name}
               </Link>
@@ -80,7 +80,7 @@ const Footer: React.FC<Props> = (props: Props) => {
           <div className="flex justify-center md:justify-end">
             <button
               onClick={handleGoToTopClick}
-              className="flex items-center justify-center w-10 h-10 text-white bg-brightRed rounded-full hover:bg-brightRedLight"
+              className="flex items-center justify-center w-10 h-10 text-white bg-primaryAccent rounded-full hover:bg-brightPrimaryAccent"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
