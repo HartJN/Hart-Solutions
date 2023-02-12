@@ -4,7 +4,7 @@ type Props = {}
 
 const ContactPage: React.FC<Props> = () => {
   return (
-    <div className="container mx-auto px-6 my-32 w-fit">
+    <div className="container mx-auto px-6 my-32 w-fit xl:mb-64">
       <h1 className="text-3xl font-bold text-white">Get in Touch</h1>
       <p className="text-white mb-6">
         Let's work together to create the perfect solution for your business
