@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Link, useLocation } from 'react-router-dom'
 
 interface NavLink {
   name: string
@@ -13,12 +13,17 @@ interface Props {
 
 const NavBar: React.FC<Props> = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false)
+  const location = useLocation()
 
   const { navLinks, mobileNavLinks } = props
 
   const handleClick = () => {
     setIsOpen(!isOpen)
   }
+
+  useEffect(() => {
+    setIsOpen(false)
+  }, [location])
 
   return (
     <nav className="relative container mx-auto p-6">
