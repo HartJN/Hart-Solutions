@@ -218,19 +218,19 @@ export const aboutSections = [
 
 export const portfolioItems = [
   {
-    title: 'Project 1',
+    title: 'ElfCo Secret Santa',
     description:
       'A custom software solution for a retail company to streamline their inventory management and sales processes.',
     image: 'src/assets/elfco-secret-santa.png',
   },
   {
-    title: 'Project 2',
+    title: 'Forkify',
     description:
       'A web-based platform for a local restaurant to manage their online ordering and delivery services.',
     image: 'src/assets/forkify.png',
   },
   {
-    title: 'Project 3',
+    title: 'Tech-Tok',
     description:
       'A mobile app for a fitness center to manage member registration, class scheduling, and payments.',
     image: 'src/assets/tech-tok.png',
