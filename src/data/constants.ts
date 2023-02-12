@@ -220,7 +220,8 @@ export const portfolioItems = [
   {
     title: 'ElfCo Secret Santa',
     description:
-      'A custom software solution for a retail company to streamline their inventory management and sales processes.',
+      'A web-based platform for a local company to manage their annual Secret Santa event.',
+
     image: 'src/assets/elfco-secret-santa.png',
   },
   {
@@ -232,7 +233,7 @@ export const portfolioItems = [
   {
     title: 'Tech-Tok',
     description:
-      'A mobile app for a fitness center to manage member registration, class scheduling, and payments.',
+      'A web platform for sharing videos and discovering new content, allowing users to connect and engage with each other through a vibrant community of creators and enthusiasts.',
     image: 'src/assets/tech-tok.png',
   },
 ]
