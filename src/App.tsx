@@ -21,30 +21,32 @@ import {
 
 function App() {
   return (
-    <>
+    <div className="flex flex-col h-full min-h-screen xl:relative">
       <NavBar navLinks={navLinks} mobileNavLinks={mobileNavLinks} />
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route
-          path="/about"
-          element={<AboutPage aboutSections={aboutSections} />}
-        />
-        <Route
-          path="/services"
-          element={<ServicesPage services={services} />}
-        />
-        <Route
-          path="/portfolio"
-          element={<PortfolioPage portfolioItems={portfolioItems} />}
-        />
-        <Route path="/contact" element={<ContactPage />} />
-      </Routes>
+      <div className="">
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route
+            path="/about"
+            element={<AboutPage aboutSections={aboutSections} />}
+          />
+          <Route
+            path="/services"
+            element={<ServicesPage services={services} />}
+          />
+          <Route
+            path="/portfolio"
+            element={<PortfolioPage portfolioItems={portfolioItems} />}
+          />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </div>
       <Footer
         footerSocialIcons={footerSocialIcons}
         footerNavLinksLeft={footerNavLinksLeft}
         footerNavLinksRight={footerNavLinksRight}
       />
-    </>
+    </div>
   )
 }
 
