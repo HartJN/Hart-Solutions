@@ -183,3 +183,56 @@ export const services = [
     content: `Our mobile app development services are designed to help businesses reach and engage their customers in new and innovative ways. Our developers create mobile apps that are both functional and visually appealing, and can be customized to meet the specific needs of each client.`,
   },
 ]
+
+//////////////////////////
+// AboutPage
+
+export const aboutSections = [
+  {
+    id: 1,
+    title: "What's Different About Hart Solutions?",
+    description:
+      'We are a company dedicated to providing top-notch business solutions to other businesses. We stand out from the crowd by providing custom software and services tailored to the specific needs of each client. Our focus on delivering the best results for our clients is what sets us apart.',
+    items: [
+      {
+        title: 'Experience and Expertise',
+        description:
+          'Our team is made up of experienced and knowledgeable professionals who are passionate about delivering the best solutions. We have a wealth of experience in delivering business solutions and are always up-to-date with the latest technologies and trends.',
+      },
+      {
+        title: 'Customized Solutions',
+        description:
+          'We understand that no two businesses are alike, which is why we take a personalized approach to each project. We work closely with each client to understand their specific needs and tailor our solutions to meet those needs.',
+      },
+      {
+        title: 'Committed to Quality',
+        description:
+          'At Hart Solutions, we are committed to delivering the highest quality solutions and services. We believe in putting in the extra effort to ensure that our clients are completely satisfied with the results.',
+      },
+    ],
+  },
+]
+
+//////////////////////////
+// PortfolioPage
+
+export const portfolioItems = [
+  {
+    title: 'Project 1',
+    description:
+      'A custom software solution for a retail company to streamline their inventory management and sales processes.',
+    image: 'src/assets/elfco-secret-santa.png',
+  },
+  {
+    title: 'Project 2',
+    description:
+      'A web-based platform for a local restaurant to manage their online ordering and delivery services.',
+    image: 'src/assets/forkify.png',
+  },
+  {
+    title: 'Project 3',
+    description:
+      'A mobile app for a fitness center to manage member registration, class scheduling, and payments.',
+    image: 'src/assets/tech-tok.png',
+  },
+]
