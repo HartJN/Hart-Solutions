@@ -20,6 +20,11 @@ interface Props {
 
 const Footer: React.FC<Props> = (props: Props) => {
   const { footerSocialIcons, footerNavLinksLeft, footerNavLinksRight } = props
+
+  const handleGoToTopClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   return (
     <footer className="bg-[#1F2833]">
       <div className="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
@@ -27,13 +32,13 @@ const Footer: React.FC<Props> = (props: Props) => {
           <div className="mx-auto my-6 text-center text-white md:hidden">
             Copyright &copy; 2023, Hart Solutions. All rights reserved.
           </div>
-          <div>
+          <Link to={'/'}>
             <img
               src="src/assets/hartsolutionslogo-white.svg"
               className="h-5"
               alt="white version of Hart Solutions company logo"
             />
-          </div>
+          </Link>
 
           <div className="flex justify-center space-x-4">
             {footerSocialIcons.map(icon => (
@@ -69,19 +74,30 @@ const Footer: React.FC<Props> = (props: Props) => {
           </div>
         </div>
 
+        {/* goto top */}
+
         <div className="flex flex-col justify-between">
-          {/* <form>
-            <div className="flex space-x-3">
-              <input
-                type="text"
-                className="flex-1 px-4 rounded-full focus:outline-none"
-                placeholder="Updates in your inbox"
-              />
-              <button className="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
-                Go
-              </button>
-            </div>
-          </form> */}
+          <div className="flex justify-center md:justify-end">
+            <button
+              onClick={handleGoToTopClick}
+              className="flex items-center justify-center w-10 h-10 text-white bg-brightRed rounded-full hover:bg-brightRedLight"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-6 h-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M5 10l7-7m0 0l7 7m-7-7v18"
+                />
+              </svg>
+            </button>
+          </div>
           <div className="hidden text-white md:block">
             Copyright &copy; 2023, Hart Solutions. All rights reserved.
           </div>
