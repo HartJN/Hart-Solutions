@@ -1,4 +1,20 @@
-// Footer
+////////////////////////////////////
+/// NavBar
+
+export const navLinks = [
+  { name: 'Home', href: '/' },
+  { name: 'Services', href: '/services' },
+  { name: 'About Us', href: '/about' },
+  { name: 'Portfolio', href: '/portfolio' },
+]
+
+export const mobileNavLinks = [
+  ...navLinks,
+  { name: 'Contact Us', href: '/contact' },
+]
+
+////////////////////////////////////
+/// Footer
 
 export const footerSocialIcons = [
   {
@@ -53,7 +69,10 @@ export const footerNavLinksRight = [
   },
 ]
 
-// Features
+////////////////////////////////////
+// Landing Page
+
+///Features
 
 export const features = [
   {
@@ -96,5 +115,71 @@ export const testimonials = [
     name: 'Richard Watts',
     text: 'Working with Hart Solutions was an excellent experience. Their team was professional, responsive, and always went above and beyond to make sure we were satisfied with the final product. They took the time to understand our needs and delivered a custom software solution that exceeded our expectations. We highly recommend them to anyone looking for a partner to help with their software needs.',
     image: 'src/assets/avatar-richard.png',
+  },
+]
+
+//////////////////////////
+// ServicesPage
+
+export const services = [
+  {
+    id: 1,
+    type: 'section',
+    title: 'Services Overview',
+    content: `Hart Solutions is a leading provider of custom software solutions for businesses of all sizes. Our team of experienced developers and business consultants work closely with clients to understand their unique needs and provide tailored solutions that drive results.`,
+  },
+  {
+    id: 2,
+    type: 'service',
+    title: 'Custom Software Development',
+    features: [
+      'User-friendly interfaces',
+      'Scalable and secure architecture',
+      'Integration with existing systems',
+      'Customizable to meet specific business needs',
+    ],
+    benefits: [
+      'Increased efficiency and productivity',
+      'Better data management and decision-making',
+      'Improved customer satisfaction',
+      'Competitive advantage in your market',
+    ],
+    content: `Our custom software development services are designed to help businesses streamline their operations and optimize their processes. Our developers use the latest technologies and methodologies to create software that is both powerful and easy to use.`,
+  },
+  {
+    id: 3,
+    type: 'service',
+    title: 'Business Consulting',
+    features: [
+      'Comprehensive assessments of business processes and systems',
+      'Tailored recommendations for improvement',
+      'Implementation support',
+      'Ongoing support and consultation',
+    ],
+    benefits: [
+      'Increased efficiency and profitability',
+      'Better alignment between strategy and operations',
+      'Improved customer satisfaction',
+      'Enhanced competitiveness in your market',
+    ],
+    content: `Our business consulting services are designed to help businesses maximize their potential and achieve their goals. Our consultants have years of experience in a variety of industries and use their expertise to provide strategic guidance and recommendations.`,
+  },
+  {
+    id: 4,
+    type: 'service',
+    title: 'Mobile App Development',
+    features: [
+      'User-friendly interfaces',
+      'Cross-platform compatibility',
+      'Integration with existing systems',
+      'Customizable to meet specific business needs',
+    ],
+    benefits: [
+      'Increased customer engagement',
+      'Better access to business information and services',
+      'Improved customer satisfaction',
+      'Competitive advantage in your market',
+    ],
+    content: `Our mobile app development services are designed to help businesses reach and engage their customers in new and innovative ways. Our developers create mobile apps that are both functional and visually appealing, and can be customized to meet the specific needs of each client.`,
   },
 ]

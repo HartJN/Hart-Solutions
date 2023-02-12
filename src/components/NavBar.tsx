@@ -6,24 +6,18 @@ interface NavLink {
   href: string
 }
 
-const navLinks: NavLink[] = [
-  { name: 'Home', href: '/' },
-  { name: 'Services', href: '/services' },
-  { name: 'About Us', href: '/about' },
-  { name: 'Portfolio', href: '/portfolio' },
-]
+interface Props {
+  navLinks: NavLink[]
+  mobileNavLinks: NavLink[]
+}
 
-const mobileNavLinks: NavLink[] = [
-  ...navLinks,
-  { name: 'Contact Us', href: '/contact' },
-]
-
-const NavBar = () => {
+const NavBar: React.FC<Props> = (props: Props) => {
   const [isOpen, setIsOpen] = useState(false)
+
+  const { navLinks, mobileNavLinks } = props
 
   const handleClick = () => {
     setIsOpen(!isOpen)
-    console.log(isOpen)
   }
 
   return (

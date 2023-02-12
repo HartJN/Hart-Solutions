@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { NavLink, Route, Routes } from 'react-router-dom'
 
 import LandingPage from './pages/Landing/LandingPage'
 import NavBar from './components/NavBar'
@@ -12,12 +12,14 @@ import {
   footerNavLinksLeft,
   footerNavLinksRight,
   footerSocialIcons,
+  mobileNavLinks,
+  navLinks,
 } from './data/index'
 
 function App() {
   return (
     <>
-      <NavBar />
+      <NavBar navLinks={navLinks} mobileNavLinks={mobileNavLinks} />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutPage />} />
