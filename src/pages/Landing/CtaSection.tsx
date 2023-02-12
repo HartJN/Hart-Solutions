@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 type Props = {}
 
 const CtaSection = (props: Props) => {
@@ -9,12 +11,12 @@ const CtaSection = (props: Props) => {
         </h2>
 
         <div>
-          <a
-            href="#"
+          <Link
+            to="/contact"
             className="p-3 px-6 pt-2 text-brightRed bg-white rounded-full baseline shadow-2xl hover:bg-gray-300"
           >
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
     </section>

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useWindowSize } from '../../hooks/useWindowSize'
 
 enum SCREEN_SIZE {
@@ -61,12 +62,12 @@ const TestimonialsSection: React.FC<Props> = (props: Props) => {
         </div>
 
         <div className="my-16">
-          <a
-            href="#"
+          <Link
+            to="/contact"
             className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
           >
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
     </section>

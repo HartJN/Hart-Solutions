@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 type Props = {}
 
@@ -15,12 +16,12 @@ const HeroSection = (props: Props) => {
             achieve their goals and grow.
           </p>
           <div className="flex justify-center md:justify-start">
-            <a
-              href="#"
+            <Link
+              to="/contact"
               className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
             >
               Discover How
-            </a>
+            </Link>
           </div>
         </div>
 

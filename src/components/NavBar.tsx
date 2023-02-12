@@ -23,14 +23,14 @@ const NavBar: React.FC<Props> = (props: Props) => {
   return (
     <nav className="relative container mx-auto p-6">
       <div className="flex container justify-between">
-        <div className="pt-1">
+        <Link to="/" className="pt-1">
           <img
             src="src/assets/hartsolutionslogo.svg"
             alt="Hart Solutions company logo"
             className="md:w-40 lg:w-56 mr-1"
             draggable="false"
           />
-        </div>
+        </Link>
 
         <div
           className={`hidden space-x-6 md:flex text-white ${
@@ -75,7 +75,7 @@ const NavBar: React.FC<Props> = (props: Props) => {
           id="menu"
           className={`absolute flex-col items-center ${
             isOpen ? 'flex' : 'hidden'
-          } self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}
+          } self-end py-8 mt-10 space-y-6 font-bold bg-[#1F2833] text-white left-6 right-6 drop-shadow-md sm:w-auto sm:self-center `}
         >
           {mobileNavLinks.map((link, index) => (
             <Link to={link.href} key={link.name}>

@@ -11,20 +11,18 @@ interface Props {
 const Portfolio: React.FC<Props> = (props: Props) => {
   const { portfolioItems } = props
   return (
-    <div className="container mx-auto px-6">
+    <div className="container mx-auto px-6 my-32 w-fit">
       <h1 className="text-3xl font-bold  mb-6 text-white">Our Portfolio</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {portfolioItems.map((item, index) => (
-          <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
+          <div key={index} className="bg-[#1F2833] p-6 rounded-lg shadow-lg">
             <img
               src={item.image}
               alt={item.title}
               className="w-full h-64 object-cover rounded-t-lg mb-6"
             />
-            <h2 className="text-lg font-bold text-gray-900 mb-3">
-              {item.title}
-            </h2>
-            <p className="text-gray-600 mb-3">{item.description}</p>
+            <h2 className="text-lg font-bold text-white mb-3">{item.title}</h2>
+            <p className="text-white mb-3">{item.description}</p>
           </div>
         ))}
       </div>
