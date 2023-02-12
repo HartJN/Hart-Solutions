@@ -27,7 +27,7 @@ const HeroSection = (props: Props) => {
 
         <div className="md:w-1/2">
           <img
-            src="src/assets/HeartSVG.svg"
+            src="assets/HeartSVG.svg"
             alt="illustrations of charts and percentages"
             className="h-96"
             draggable="false"

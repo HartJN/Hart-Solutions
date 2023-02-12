@@ -25,7 +25,7 @@ const NavBar: React.FC<Props> = (props: Props) => {
       <div className="flex container justify-between">
         <Link to="/" className="pt-1">
           <img
-            src="src/assets/hartsolutionslogo.svg"
+            src="assets/hartsolutionslogo.svg"
             alt="Hart Solutions company logo"
             className="md:w-40 lg:w-56 mr-1"
             draggable="false"

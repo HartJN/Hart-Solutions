@@ -34,7 +34,7 @@ const Footer: React.FC<Props> = (props: Props) => {
           </div>
           <Link to={'/'}>
             <img
-              src="src/assets/hartsolutionslogo-white.svg"
+              src="/assets/hartsolutionslogo-white.svg"
               className="h-5"
               alt="white version of Hart Solutions company logo"
             />

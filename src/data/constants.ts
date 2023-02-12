@@ -19,22 +19,22 @@ export const mobileNavLinks = [
 export const footerSocialIcons = [
   {
     name: 'Facebook',
-    icon: 'src/assets/icon-facebook.svg',
+    icon: 'assets/icon-facebook.svg',
     link: 'https://www.facebook.com/',
   },
   {
     name: 'Instagram',
-    icon: 'src/assets/icon-instagram.svg',
+    icon: 'assets/icon-instagram.svg',
     link: 'https://www.instagram.com/',
   },
   {
     name: 'Twitter',
-    icon: 'src/assets/icon-twitter.svg',
+    icon: 'assets/icon-twitter.svg',
     link: 'https://twitter.com/',
   },
   {
     name: 'Pinterest',
-    icon: 'src/assets/icon-pinterest.svg',
+    icon: 'assets/icon-pinterest.svg',
     link: 'https://www.pinterest.com/',
   },
 ]
@@ -102,19 +102,19 @@ export const testimonials = [
     id: 1,
     name: 'Anisha Li',
     text: "Hart Solutions was instrumental in helping us launch our new e-commerce platform. Their team was knowledgeable, efficient, and always a pleasure to work with. We appreciate their attention to detail and their commitment to delivering a quality product. We've already seen a significant increase in sales since launching the new platform and we couldn't be happier with the results.",
-    image: 'src/assets/avatar-anisha.png',
+    image: 'assets/avatar-anisha.png',
   },
   {
     id: 2,
     name: 'Ali Bravo',
     text: "We had been struggling to find a software solution that could help us streamline our business processes, but after working with Hart Solutions, we finally have a system that works for us. Their team was able to understand our needs and design a custom solution that has made a big impact on our bottom line. We're grateful for their help and would highly recommend them to any business looking for software solutions.",
-    image: 'src/assets/avatar-ali.png',
+    image: 'assets/avatar-ali.png',
   },
   {
     id: 3,
     name: 'Richard Watts',
     text: 'Working with Hart Solutions was an excellent experience. Their team was professional, responsive, and always went above and beyond to make sure we were satisfied with the final product. They took the time to understand our needs and delivered a custom software solution that exceeded our expectations. We highly recommend them to anyone looking for a partner to help with their software needs.',
-    image: 'src/assets/avatar-richard.png',
+    image: 'assets/avatar-richard.png',
   },
 ]
 
@@ -222,18 +222,18 @@ export const portfolioItems = [
     description:
       'A web-based platform for a local company to manage their annual Secret Santa event.',
 
-    image: 'src/assets/elfco-secret-santa.png',
+    image: 'assets/elfco-secret-santa.png',
   },
   {
     title: 'Forkify',
     description:
       'A web-based platform for a local restaurant to manage their online ordering and delivery services.',
-    image: 'src/assets/forkify.png',
+    image: 'assets/forkify.png',
   },
   {
     title: 'Tech-Tok',
     description:
       'A web platform for sharing videos and discovering new content, allowing users to connect and engage with each other through a vibrant community of creators and enthusiasts.',
-    image: 'src/assets/tech-tok.png',
+    image: 'assets/tech-tok.png',
   },
 ]
