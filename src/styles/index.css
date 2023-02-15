@@ -73,3 +73,21 @@ body {
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+
+header {
+  margin-bottom: 9.6rem;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+}
