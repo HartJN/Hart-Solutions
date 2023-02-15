@@ -34,7 +34,7 @@ To run the project on your local machine, make sure you have Node.js installed. 
     npm run dev
     ```
 
-This will start a local development server that you can access at http://localhost:3000.
+This will start a local development server that you can access at http://localhost:5173.
 
 ## Building and Previewing the Project
 
